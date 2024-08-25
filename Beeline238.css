@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.styled-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.styled-list li {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.styled-list li:hover {
+    background-color: #0056b3;
+}
+
+/* New CSS for The Current State Section */
+strong {
+    color: #093869;
+}
+
+em {
+    font-style: italic;
+    color: #555;
+}
+
+code {
+    background-color: #f1f1f1;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #d63384;
+}
+
+/* New CSS for Code Blocks */
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.code-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.code-list pre {
+    margin: 10px 0;
+}
+
+/* Simple List for Important Lessons */
+.simple-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.simple-list li {
+    margin-bottom: 10px;
+}
