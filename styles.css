@@ -27,6 +27,11 @@ h1 {
     margin-bottom: 10px;
 }
 
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h2 {
     font-size: 1.5em;
     color: #555;
@@ -74,6 +79,27 @@ code {
     border-radius: 4px;
     font-size: 1em;
     color: #d63384;
+}
+
+/* CSS for Results Section Images */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 /* New CSS for Code Blocks */
