@@ -272,7 +272,7 @@
             print(f"Current model directory: {args.model_dir}")
             exit(1)</code></pre>
         
-        <p>Another additional change I made that was essential to fast pace the evaluation pipeline was a small change in the <strong>computeScores()</strong> function in the <strong>computeDGAUC.py</strong> file in the BLEval folder.</p>
+        <p>Another additional change, that I will pass on as an <a href="https://github.com/Murali-group/Beeline/issues/126" target="_blank">issue</a> and not as a part of the original PR is that it was essential to fast pace the evaluation pipeline with small change in the <strong>computeScores()</strong> function in the <strong>computeDGAUC.py</strong> file in the BLEval folder.</p>
         <pre><code># Get unique genes
     unique_genes = np.unique(trueEdgesDF.loc[:, ['Gene1', 'Gene2']])
         
