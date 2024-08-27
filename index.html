@@ -318,7 +318,7 @@
         output_path = self.base_dir / dataset_name / 'processed_ExpressionData' / f"{dataset_name}-{file_name}"
         return output_path
             </code></pre>
-        <p>Similarly more such path changes were added in the config <strong>parse(),__parse_input_settings(),--parse_output_settings()</strong>, in the <strong>ConfigParser()</strong> class to use this path by calling on the <strong>InputSettings()</strong> class.</p>
+        <p>Similarly more such path changes were added in the config <strong>parse(),__parse_input_settings(),__parse_output_settings()</strong>, in the <strong>ConfigParser()</strong> class to use this path by calling on the <strong>InputSettings()</strong> class.</p>
         <li>Then we move on to the <strong>PRROC()</strong> function in the <strong>computeDGAUC.py</strong> file, in which we add an if statement to check if <code>--use_embeddings</code> flag is used, in which a different input and output path needs to be followed: </li>
         <pre><code>
     if inputSettings.use_embeddings == True:     
