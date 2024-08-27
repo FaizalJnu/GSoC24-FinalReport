@@ -52,7 +52,7 @@
         <p>While significant progress has been made, there are several areas for progress that still need work:</p>
         <ul class="simple-list">
             <li>Work on EPr issue is required. According to the BEELINE research paper, the EPr(Early Precision Recall) metric was turning out to be  between 0-7.5, whereas from our computation, the score was turning out to be less that 0.2 in all gene embeddings and gene expression evaluations. </li>
-            <li>EPr evaluation Pipeline also requires similar edits and addtions as the Auc pipeline did, so that using the flag <code>--use_embeddings</code> can generate and save EPr scores without the need of config file editing</li>
+            <li>EPr evaluation Pipeline also requires similar edits and addtions as the Auc pipeline did, so that using the flag <code>--use_embeddings</code> can generate and save EPr scores without the need of config file editing.</li>
             <li>In case of hHepHepG2-ChIP-seq-network, hHepNon-Specific-ChIP-seq-network, hHepSTRING-network Datasets, when used for GRN inference are producing nan values in case of PIDC algorithms in case of gene expression data. This is when the preprocessing is done as defined in the paper, using TFs(Transcription factor genes) + 500 genes based on highest variance scores. But when only top 500 genes are chosen without considering any TFs, we get values other than nan for PIDC.</li>
         </ul>
     </div>
